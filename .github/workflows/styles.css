@@ -1,0 +1,27 @@
+h1{
+ text-align:center;
+ font-size: 5rem;
+ margin-top: 50%;
+ background: radial-gradient(green, yellow, blue, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ animation: on 10s infinite;
+ 
+}
+
+@keyframes on {
+
+50% {
+ background: linear-gradient(green, yellow, blue, white);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+
+}
+
+90% {
+ background: radial-gradient(yellow, blue, white);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+
+ }
+}
